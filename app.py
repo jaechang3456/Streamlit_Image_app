@@ -3,7 +3,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 import pandas as pd
 import os
 from datetime import datetime
-
+#깃연동
 def save_uploaded_file(directory, img):
     # 1. 디렉토리가 있는지 확인하여, 없으면 만든다.
     if not os.path.exists(directory) :
